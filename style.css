@@ -1,0 +1,104 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.esquerdo{
+    width: 40%;
+    height: 100%;
+    background-color: #58af9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card h1{
+    color: white;
+    font-size: 40px;
+}
+
+.card p{
+    color: white;
+    font-size: 17px;
+}
+
+.card button{
+    color: white;
+    background: none;
+    border: 1px solid white;
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+.direito{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card2 h1{
+    color: #58af9c;
+    font-size: 40px;
+}
+
+.card2 p{
+    color: rgb(190, 190, 190);
+    font-size: 17px;
+}
+
+.card2 button{
+    color: white;
+    background: #58af9c;
+    border: 1px solid #58af9c;
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputs input{
+    width: 350px;
+    height: 25px;
+    border: none;
+    background-color: #ececec;
+    padding: 15px;
+    font-size: 15px;
+}
